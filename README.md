@@ -1,8 +1,10 @@
-**This is showcasing React with Firebase Authentication**
+##This Project is an example of React with Firebase Authentication
+
+https://davidreact.github.io/firebaseauth
 
 Steps:
-- Created skeleton application files
-- installed react react-dom react-router-dom firebase parcel-bundler
+- Create skeleton react application files
+- installed react react-dom react-router-dom firebase parcel-bundler @babel/core @babel/plugin-proposal-class-properties
 - Updated package.json with scripts for parcel-bundler and launched the local server
 
 - The authentication needs:
