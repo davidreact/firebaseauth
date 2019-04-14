@@ -3,7 +3,7 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
-import background from './assets/office.jpg';
+import background from './assets/office75.jpg';
 
 const Jumbotrone = styled.div`
     background: url(${background});

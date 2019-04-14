@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from './assets/sea.jpg';
+import background from './assets/sea50.jpg';
 
 const Jumbotrone = styled.div`
     background: url(${background});
