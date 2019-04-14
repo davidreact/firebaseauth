@@ -1,5 +1,11 @@
 body{
-    margin: 3% 5%
+    margin: 2% 3%;
+}
+
+@media screen and (max-width: 760px){
+    body {
+        margin: 2% 0;
+    }
 }
 
 a.navigation {
@@ -14,4 +20,23 @@ a.navigation {
 a.active {
     background: rgba(0, 0, 255, 0.5);
     color: white;
+}
+
+input {
+    margin: 0px 2px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 0px 4px;
+    min-width: 200px;
+
+    /* width: 100%; */
+}
+
+@media screen and (max-width: 500px){
+    input {
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: block;
+    }
 }

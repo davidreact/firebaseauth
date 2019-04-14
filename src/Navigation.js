@@ -22,13 +22,13 @@ const DivStyled = styled.div`
     `
     
  const bodyStyle = {
-     margin: '5% 5px'
+    //  margin: '5% 5px'
  }
 
 
 
 const Navigation = (props) => {
-    console.log('navigation props', props, firebase.auth().currentUser);
+    // console.log('navigation props', props, firebase.auth().currentUser);
     return (
         <BrowserRouter
             basename={process.env.NODE_ENV === 'development' ? '' : '/firebaseauth'}
