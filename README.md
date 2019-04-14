@@ -1,4 +1,4 @@
-##This Project is an example of React with Firebase Authentication
+## This Project is an example of React with Firebase Authentication
 
 https://davidreact.github.io/firebaseauth
 

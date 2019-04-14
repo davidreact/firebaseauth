@@ -30,7 +30,9 @@ const DivStyled = styled.div`
 const Navigation = (props) => {
     console.log('navigation props', props, firebase.auth().currentUser);
     return (
-        <BrowserRouter>
+        <BrowserRouter
+            basename={process.env.NODE_ENV === 'development' ? '' : '/firebaseauth'}
+        >
             <div>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
                     <div>
