@@ -7,7 +7,7 @@ import Register from './Register';
 import Dashboard from './Dashboard';
 import ProtectedRoute from './ProtectedRoute';
 import styled, {css} from 'styled-components';
-import firebase, {auth} from 'firebase/app';
+import firebase from 'firebase/app';
 
 // https://www.zeolearn.com/magazine/react-and-firebase-authentication-using-email-and-password
 

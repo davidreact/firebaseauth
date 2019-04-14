@@ -14,12 +14,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.4.0"
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel ./public/index.html --port 2000",
-    "build": "parcel build ./public/index.html --out-dir ./docs --public-url /firebaseauth"
+    "build": "parcel build --experimental-scope-hoisting ./public/index.html --out-dir ./docs --public-url /firebaseauth"
   },
   "author": "",
   "license": "ISC"

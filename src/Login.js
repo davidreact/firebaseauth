@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import firebase from 'firebase/app';
-import 'firebase/auth';
+// import 'firebase/auth';
 import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
 import background from './assets/office75.jpg';
